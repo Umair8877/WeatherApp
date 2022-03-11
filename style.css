@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background: #eeedec; */
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+.container {
+    max-width: 400px;
+}
+#tag1 {
+    color: rgb(86, 45, 94);
+}
+.labtag {
+    color: black;
+}
+#cards {
+        
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(86, 45, 94);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    
+}
+
+.icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+#btn{
+    background-color: blueviolet;
+}
