@@ -28,7 +28,7 @@ const getcity = async(city) =>{
 
 
 const getweather = async(id) => {
-    const baseURL = 'http://dataservice.accuweather.com/currentconditions/v1/';
+    const baseURL = 'https://dataservice.accuweather.com/currentconditions/v1/';
     
     const query = id +'?apikey='+key;
 
